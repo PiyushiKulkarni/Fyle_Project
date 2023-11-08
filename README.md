@@ -38,7 +38,7 @@ Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn 
 ### In the profile page
 - pagination is added
 * user can view repo list based on custom per page number.
-Unit Testing
+### Unit Testing
     run  ng test
  - In api.service.spec.ts test is performed for api services
  * In github-profile.spec.ts UT is performed for github-profile component.
