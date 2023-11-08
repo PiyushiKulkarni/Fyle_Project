@@ -27,7 +27,7 @@ export class RepolistComponent {
         this.totalPage = this.getTotalPages(linkHeader)
         this.range = Array(this.totalPage).fill(0).map((_, index) => index + 1);
       },
-      (error) =>{
+      (error:any) =>{
         this.errorMessage = error;
       }
       )
@@ -44,7 +44,7 @@ export class RepolistComponent {
         this.totalPage = this.getTotalPages(linkHeader)
         this.range = Array(this.totalPage).fill(0).map((_, index) => index + 1);
       },
-      (error) =>{
+      (error:any) =>{
         this.errorMessage = error;
       })
   }
@@ -55,7 +55,7 @@ export class RepolistComponent {
     this.apiService.getReposListApi(this.user,page,this.per_page).subscribe(res =>{
       this.data = res.body;
     },
-    (error) =>{
+    (error:any) =>{
       this.errorMessage = error;
     })
   }
