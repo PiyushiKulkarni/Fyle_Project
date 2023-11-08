@@ -32,6 +32,33 @@ Run ng serve for a dev server. Navigate to [http://localhost:4200/.](http://loca
 Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more. Styling is to be strictly done with [Tailwind.](https://tailwindcss.com/docs/installation)
 
 ## How to use this app
+Start by forking or downloading this repository. Once you have the project files on your local machine, you'll need to follow these steps to set up the development environment: 
+### Step 1.1: Install Angular and Node Modules
+
+To begin, make sure you have Angular and the required Node modules installed. Open your terminal and run the following commands:
+
+npm install -g @angular/cli
+npm install
+```This will install Angular CLI globally and the project's specific dependencies.
+
+### Step 1.2: Add Angular Material and Additional Dependencies
+
+Next, you'll need to enhance your project by adding Angular Material and some additional dependencies. Run the following commands:
+
+```html
+npm i rxjs@6.3.3  
+npm i rxjs-observable
+
+Step 2: Start the Development Server
+
+Once you have the necessary packages and dependencies installed, you can start the development server to run your Angular application. Open your terminal and enter the following command:
+
+Development server
+Run ng serve -o for a dev server.`
+
+This command will launch the development server, and your web browser will open to http://localhost:4200/ automatically.
+
+Now, you can access and interact with your Angular application. Follow the user interface to search for GitHub usernames, view user profiles, and explore repositories. Enjoy exploring and using your app!
 ### In the home page
 - enter the github user name and click on view profile.
 * the app will route to profile
